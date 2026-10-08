@@ -1,268 +1,34 @@
-<!DOCTYPE html>
-<html lang="en">
-
+<!doctype html>
+<html lang="en-GB">
 <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Emmanuel Olabanji | Experienced Software Engineer - Frontend and Full Stack Development</title>
-    <meta name="description" content="Emmanuel Olabanji - Professional portfolio showcasing skills and projects in Frontend and Full Stack Development, with expertise in HTML, CSS, JavaScript, and more.">
-    <link rel="stylesheet" href="style.css" />
-    <link rel="stylesheet" href="mediaqueries.css" />
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#0b1020" />
+  <meta name="description" content="Emmanuel Olabanji — Computer Science and Artificial Intelligence graduate. Exploring software engineering, AI and creative technology." />
+  <title>Emmanuel Olabanji — Software & AI Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <style>
+    :root{--bg:#080d19;--surface:#101827;--surface2:#141e30;--line:#273248;--text:#edf3ff;--muted:#96a5be;--blue:#83afff;--lime:#d6f5a3;--max:1160px}
+    *{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--bg);color:var(--text);font-family:'DM Sans',system-ui,sans-serif;line-height:1.6}body::before{content:"";position:absolute;top:0;right:0;width:65vw;height:640px;pointer-events:none;background:radial-gradient(ellipse at top right,rgba(50,97,175,.18),transparent 65%)}a{color:inherit;text-decoration:none}button{font:inherit}::selection{background:#83afff;color:#08101d}.container{width:min(calc(100% - 48px),var(--max));margin:auto}.header{position:sticky;top:0;z-index:10;background:rgba(8,13,25,.88);backdrop-filter:blur(14px);border-bottom:1px solid rgba(151,173,210,.12)}.nav{height:82px;display:flex;align-items:center;justify-content:space-between;gap:20px}.brand{font-family:'Space Grotesk',sans-serif;font-size:1.22rem;font-weight:700;letter-spacing:-.045em}.brand span{color:var(--blue)}.navlinks{display:flex;gap:36px;align-items:center;color:#b9c5d9;font-size:.92rem}.navlinks a:hover,.footer a:hover{color:var(--blue)}.navcta{padding:10px 18px;border:1px solid var(--line);border-radius:9px;color:var(--text)!important}.navcta:hover{border-color:var(--blue)}.menu{display:none;background:transparent;border:1px solid var(--line);border-radius:8px;color:var(--text);padding:8px 12px}.hero{min-height:650px;display:grid;grid-template-columns:1.5fr .85fr;align-items:center;gap:65px;padding:95px 0 110px}.eyebrow{display:inline-flex;align-items:center;gap:10px;color:var(--lime);font-size:.78rem;font-weight:700;letter-spacing:.16em;text-transform:uppercase}.dot{height:8px;width:8px;background:var(--lime);border-radius:50%;box-shadow:0 0 18px rgba(214,245,163,.7)}h1,h2,h3,p{margin-top:0}h1,h2,h3{font-family:'Space Grotesk',sans-serif;line-height:1.13;letter-spacing:-.055em}h1{font-size:clamp(3.4rem,6.2vw,6rem);margin:24px 0}.gradient{color:var(--blue)}.intro{color:var(--muted);font-size:1.08rem;max-width:590px;margin-bottom:31px}.buttons{display:flex;flex-wrap:wrap;gap:12px}.btn{display:inline-flex;align-items:center;justify-content:center;gap:10px;padding:13px 21px;border-radius:10px;font-weight:700;font-size:.91rem;transition:transform .2s,background .2s}.btn:hover{transform:translateY(-2px)}.btn.primary{background:var(--blue);color:#08101d}.btn.secondary{border:1px solid #374761;color:var(--text)}.hero-art{position:relative;aspect-ratio:1/1.08;display:grid;place-items:center}.artbox{width:100%;aspect-ratio:1;border:1px solid #344363;border-radius:28px;background:radial-gradient(circle at 50% 40%,#29466b 0,#172740 38%,#0f1827 73%);transform:rotate(-5deg);box-shadow:0 30px 85px #0004;display:grid;place-items:center;overflow:hidden}.artbox:before{content:"";position:absolute;width:75%;aspect-ratio:1;border:1px solid #5b84bb55;border-radius:50%;box-shadow:0 0 0 45px #87aefe0a,0 0 0 95px #87aefe09}.initials{font-family:'Space Grotesk';font-size:clamp(6rem,13vw,11rem);font-weight:700;letter-spacing:-.12em;color:#dceaff;transform:rotate(5deg);z-index:1;text-shadow:0 10px 45px #050b1f}.float-tag{position:absolute;right:-12px;bottom:23px;background:#1b2b44;border:1px solid #3d5274;box-shadow:0 14px 45px #0006;padding:13px 18px;border-radius:12px;font-size:.84rem;font-weight:700}.tag-dot{display:inline-block;background:#b8f5b3;width:8px;height:8px;border-radius:50%;margin-right:8px}.section{padding:95px 0;border-top:1px solid #1c2739;scroll-margin-top:80px}.section-head{display:flex;justify-content:space-between;align-items:end;gap:30px;margin-bottom:35px}.kicker{font-size:.75rem;text-transform:uppercase;letter-spacing:.2em;color:var(--blue);font-weight:700;margin-bottom:14px}.section h2{font-size:clamp(2.2rem,4.4vw,3.5rem);margin:0}.section-note{max-width:370px;color:var(--muted);font-size:.96rem}.about-grid{display:grid;grid-template-columns:1.3fr 1fr;gap:22px}.panel{background:var(--surface);border:1px solid var(--line);border-radius:16px;padding:31px}.about-copy{font-size:1.05rem;color:#c1cce0}.mini-label{font-size:.75rem;text-transform:uppercase;letter-spacing:.12em;color:var(--muted);font-weight:700}.education{display:grid;gap:24px}.education h3{font-size:1.15rem;margin:8px 0 5px;letter-spacing:-.03em}.education p{color:var(--muted);margin:0;font-size:.9rem}.skills{display:flex;gap:10px;flex-wrap:wrap;margin-top:25px}.chip{border:1px solid #34425a;background:#172237;color:#c9d6eb;padding:8px 13px;border-radius:7px;font-size:.84rem}.projects{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}.project{background:var(--surface);border:1px solid var(--line);border-radius:16px;overflow:hidden;display:flex;flex-direction:column;transition:transform .2s,border-color .2s}.project:hover{transform:translateY(-4px);border-color:#4c6387}.project-art{height:188px;position:relative;overflow:hidden;display:flex;align-items:center;justify-content:center;background:linear-gradient(135deg,#213a5a,#131c32)}.project-art::before{content:"";position:absolute;width:210px;height:210px;border:1px solid #8bacda44;border-radius:50%;box-shadow:0 0 0 28px #ffffff06,0 0 0 57px #ffffff05}.project-art svg{position:relative;z-index:1;width:75px;height:75px;stroke:#a9c9ff;fill:none;stroke-width:1.5}.project:nth-child(2) .project-art{background:linear-gradient(135deg,#29344f,#1b2236)}.project:nth-child(3) .project-art{background:linear-gradient(135deg,#1b4048,#142530)}.project:nth-child(4) .project-art{background:linear-gradient(135deg,#3a3052,#211a31)}.project:nth-child(5) .project-art{background:linear-gradient(135deg,#293e48,#17232e)}.project:nth-child(6) .project-art{background:linear-gradient(135deg,#3d3436,#251c27)}.project-body{padding:24px;display:flex;flex:1;flex-direction:column}.project-top{display:flex;justify-content:space-between;gap:10px;align-items:center;margin-bottom:14px}.category{color:var(--blue);font-size:.74rem;text-transform:uppercase;letter-spacing:.1em;font-weight:700}.status{font-size:.71rem;color:#dfedb8;background:#293726;padding:5px 10px;border-radius:999px;white-space:nowrap}.project h3{font-size:1.25rem;margin-bottom:11px;letter-spacing:-.04em}.project p{color:var(--muted);font-size:.9rem;flex:1}.project-footer{color:#b6c5df;font-size:.77rem;padding-top:16px;border-top:1px solid var(--line)}.contact{background:linear-gradient(125deg,#172846,#101a2c);border:1px solid #334767;border-radius:22px;padding:56px;display:flex;justify-content:space-between;align-items:center;gap:35px}.contact h2{max-width:580px;margin:12px 0}.contact p{color:#bac9df;max-width:550px;margin-bottom:0}.footer{display:flex;justify-content:space-between;gap:20px;align-items:center;padding:35px 0;color:#8998b2;font-size:.84rem}.footer-links{display:flex;gap:25px}.skip{position:absolute;left:-999px}.skip:focus{left:15px;top:15px;z-index:100;background:#fff;color:#000;padding:8px}@media(max-width:900px){.hero{gap:35px;min-height:570px}.projects{grid-template-columns:repeat(2,1fr)}.hero-art{max-width:320px}.contact{padding:35px}}@media(max-width:680px){.container{width:min(calc(100% - 36px),var(--max))}.nav{height:70px}.menu{display:block}.navlinks{display:none;position:absolute;top:70px;left:0;right:0;background:#101827;border-bottom:1px solid var(--line);padding:20px 24px;flex-direction:column;align-items:flex-start;gap:18px}.navlinks.open{display:flex}.hero{grid-template-columns:1fr;gap:20px;padding:65px 0 80px}.hero-art{max-width:270px;width:80%;justify-self:center}.section{padding:72px 0}.section-head{display:block}.section-note{margin-top:15px}.about-grid,.projects{grid-template-columns:1fr}.contact{display:block;padding:29px}.contact .btn{margin-top:25px}.footer{flex-direction:column;align-items:flex-start}h1{font-size:clamp(3.15rem,12vw,5rem)}}@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}.btn,.project{transition:none}}
+  </style>
 </head>
-
 <body>
-    <nav id="desktop-nav">
-        <div class="logo">Emmanuel Olabanji</div>
-        <div>
-            <ul class="nav-links">
-                <li><a href="#about">About</a></li>
-                <li><a href="#experience">Experience</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </div>
-    </nav>
-    <nav id="hamburger-nav">
-        <div class="logo">Emmanuel Olabanji</div>
-        <div class="hamburger-menu">
-            <div class="hamburger-icon" onclick="toggleMenu()">
-                <span></span>
-                <span></span>
-                <span></span>
-            </div>
-            <div class="menu-links">
-                <li><a href="#about" onclick="toggleMenu()">About</a></li>
-                <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
-                <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
-                <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
-            </div>
-        </div>
-    </nav>
-    <section id="profile">
-        <div class="section__pic-container">
-            <img src="./assets/profile-pic.png" alt="Emmanuel Olabanji Profile picture" />
-        </div>
-        <div class="section__text">
-            <p class="section__text__p1">Hello, I'm</p>
-            <h1 class="title">Emmanuel Olabanji</h1>
-            <p class="section__text__p2">Software Engineer</p>
-            <div class="btn-container">
-                <button class="btn btn-color-2" onclick="window.open('./assets/EmmanuelOlabanjiCV_V1.pdf')">
-                    Download CV
-                </button>
-                <button class="btn btn-color-1" onclick="location.href='./#contact'">
-                    Contact Info
-                </button>
-            </div>
-            <div id="socials-container">
-                <img src="./assets/linkedin.png" alt="My LinkedIn profile" class="icon"
-                    onclick="location.href='https://www.linkedin.com/in/emmanuelolabanji/'" />
-                <img src="./assets/github.png" alt="My Github profile" class="icon"
-                    onclick="location.href='https://github.com/Emmanuel-Olabanji'" />
-            </div>
-        </div>
-    </section>
-    <section id="about">
-        <p class="section__text__p1">Get To Know More</p>
-        <h1 class="title">About Me</h1>
-        <div class="section-container">
-            <div class="section__pic-container">
-                <img src="./assets/about-pic.png"  alt="Emmanuel Olabanji Profile picture" class="about-pic" />
-            </div>
-            <div class="about-details-container">
-                <div class="about-containers">
-                    <div class="details-container">
-                        <img src="./assets/experience.png" alt="Experience icon" class="icon" />
-                        <h3>Experience</h3>
-                        <p>2+ years <br />Software Engineer</p>
-                    </div>
-                    <div class="details-container">
-                        <img src="./assets/education.png" alt="Education icon" class="icon" />
-                        <h3>Education</h3>
-                        <p>B.Sc. Bachelors Degree<br />M.Sc. Masters Degree</p>
-                    </div>
-                </div>
-                <div class="text-container">
-                    <p>
-                        I am a Software Engineer with 2+ years of experience in Frontend Development. I have a Bachelors
-                        and Masters Degree in Computer Science. I am passionate about building responsive and
-                        user-friendly web applications. I am also a team player and I enjoy working with other
-                        developers to build amazing products.
-                    </p>
-                </div>
-            </div>
-        </div>
-        <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#experience'" />
-    </section>
-    <section id="experience">
-        <p class="section__text__p1">Explore My</p>
-        <h1 class="title">Experience</h1>
-        <div class="experience-details-container">
-            <div class="about-containers">
-                <div class="details-container">
-                    <h2 class="experience-sub-title">Frontend Development</h2>
-                    <div class="article-container">
-                        <article>
-                            <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
-                            <div>
-                                <h3>HTML</h3>
-                                <p>Experienced</p>
-                            </div>
-                        </article>
-                        <article>
-                            <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
-                            <div>
-                                <h3>CSS</h3>
-                                <p>Experienced</p>
-                            </div>
-                        </article>
-                        <article>
-                            <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
-                            <div>
-                                <h3>SASS</h3>
-                                <p>Intermediate</p>
-                            </div>
-                        </article>
-                        <article>
-                            <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
-                            <div>
-                                <h3>JavaScript</h3>
-                                <p>Basic</p>
-                            </div>
-                        </article>
-                        <article>
-                            <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
-                            <div>
-                                <h3>TypeScript</h3>
-                                <p>Basic</p>
-                            </div>
-                        </article>
-                        <article>
-                            <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
-                            <div>
-                                <h3>Material UI</h3>
-                                <p>Intermediate</p>
-                            </div>
-                        </article>
-                    </div>
-                </div>
-                <div class="details-container">
-                    <h2 class="experience-sub-title">Frontend Development</h2>
-                    <div class="article-container">
-                        <article>
-                            <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
-                            <div>
-                                <h3>PostgreSQL</h3>
-                                <p>Basic</p>
-                            </div>
-                        </article>
-                        <article>
-                            <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
-                            <div>
-                                <h3>Node JS</h3>
-                                <p>Intermediate</p>
-                            </div>
-                        </article>
-                        <article>
-                            <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
-                            <div>
-                                <h3>Express JS</h3>
-                                <p>Intermediate</p>
-                            </div>
-                        </article>
-                        <article>
-                            <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
-                            <div>
-                                <h3>Git</h3>
-                                <p>Intermediate</p>
-                            </div>
-                        </article>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#projects'" />
-    </section>
-    <section id="projects">
-        <p class="section__text__p1">Browse My Recent</p>
-        <h1 class="title">Projects</h1>
-        <div class="experience-details-container">
-            <div class="about-containers">
-                <div class="details-container color-container">
-                    <div class="article-container">
-                        <img src="./assets/project-1.png" alt="Project 1" class="project-img" />
-                    </div>
-                    <h2 class="experience-sub-title project-title">Project One</h2>
-                    <div class="btn-container">
-                        <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/'">
-                            Github
-                        </button>
-                        <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/'">
-                            Live Demo
-                        </button>
-                    </div>
-                </div>
-                <div class="details-container color-container">
-                    <div class="article-container">
-                        <img src="./assets/project-2.png" alt="Project 2" class="project-img" />
-                    </div>
-                    <h2 class="experience-sub-title project-title">Project Two</h2>
-                    <div class="btn-container">
-                        <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/'">
-                            Github
-                        </button>
-                        <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/'">
-                            Live Demo
-                        </button>
-                    </div>
-                </div>
-                <div class="details-container color-container">
-                    <div class="article-container">
-                        <img src="./assets/project-3.png" alt="Project 3" class="project-img" />
-                    </div>
-                    <h2 class="experience-sub-title project-title">Project Three</h2>
-                    <div class="btn-container">
-                        <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/'">
-                            Github
-                        </button>
-                        <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/'">
-                            Live Demo
-                        </button>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#contact'" />
-    </section>
-    <section id="contact">
-        <p class="section__text__p1">Get in Touch</p>
-        <h1 class="title">Contact Me</h1>
-        <div class="contact-info-upper-container">
-            <div class="contact-info-container">
-                <img src="./assets/email.png" alt="Email icon" class="icon contact-icon email-icon" />
-                <p><a href="mailto:emmanuelolabanji@gmail.com">emmanuelolabanji@gmail.com</a></p>
-            </div>
-            <div class="contact-info-container">
-                <img src="./assets/linkedin.png" alt="LinkedIn icon" class="icon contact-icon" />
-                <p><a href="https://github.com/Emmanuel-Olabanji">LinkedIn</a></p>
-            </div>
-        </div>
-    </section>
-    <footer>
-        <nav>
-            <div class="nav-links-container">
-                <ul class="nav-links">
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#experience">Experience</a></li>
-                    <li><a href="#projects">Projects</a></li>
-                    <li><a href="#contact">Contact</a></li>
-                </ul>
-            </div>
-        </nav>
-        <p>Copyright &#169; 2023 Emmanuel Olabanji. All Rights Reserved.</p>
-    </footer>
-    <script src="script.js"></script>
-</body>
-
-</html>
+<a class="skip" href="#main">Skip to main content</a>
+<header class="header"><nav class="container nav" aria-label="Main navigation"><a class="brand" href="#top">Emmanuel<span>.</span></a><button class="menu" id="menu" aria-expanded="false" aria-controls="navlinks" aria-label="Toggle navigation">☰</button><div class="navlinks" id="navlinks"><a href="#about">About</a><a href="#skills">Skills</a><a href="#projects">Projects</a><a class="navcta" href="#contact">Get in touch ↗</a></div></nav></header>
+<main id="main"><div class="container" id="top"><section class="hero" aria-labelledby="hero-title"><div><div class="eyebrow"><span class="dot"></span> Software · Artificial Intelligence · Technology</div><h1 id="hero-title">Hi, I'm <br><span class="gradient">Emmanuel</span><br>Olabanji.</h1><p class="intro">A Computer Science and Artificial Intelligence graduate who enjoys building software, exploring emerging technologies and solving real-world problems.</p><div class="buttons"><a class="btn primary" href="#projects">Explore my work <span aria-hidden="true">↗</span></a><a class="btn secondary" href="mailto:emmanuelolabanji@gmail.com">Contact me <span aria-hidden="true">→</span></a></div></div><div class="hero-art" aria-hidden="true"><div class="artbox"><span class="initials">EO</span></div><div class="float-tag"><span class="tag-dot"></span>Open to opportunities</div></div></section></div>
+<section class="section" id="about"><div class="container"><div class="section-head"><div><p class="kicker">01 / Introduction</p><h2>More than just code.</h2></div><p class="section-note">Curiosity, creativity and a passion for making technology useful.</p></div><div class="about-grid"><div class="panel"><p class="mini-label">A little about me</p><p class="about-copy">I'm a UK-based technology graduate with a background in Computer Science and Artificial Intelligence. My interests span software engineering, machine learning and creating practical digital experiences.</p><p class="about-copy">I enjoy learning new technologies, breaking down complex problems and turning ideas into working projects. I'm continuing to develop my skills and I'm excited to contribute to a team where I can learn and grow.</p></div><div class="panel"><p class="mini-label">Education</p><div class="education"><div><h3>MSc Applications of Artificial Intelligence</h3><p>University of Essex</p></div><div><h3>BSc Computer Science · First-Class Honours</h3><p>Queen Mary University of London</p></div></div></div></div></div></section>
+<section class="section" id="skills"><div class="container"><div class="section-head"><div><p class="kicker">02 / Toolkit</p><h2>Skills & technologies.</h2></div><p class="section-note">Languages and tools I've explored through university, personal work and projects.</p></div><div class="panel"><p class="mini-label">Programming & development</p><div class="skills"><span class="chip">Python</span><span class="chip">Java</span><span class="chip">JavaScript</span><span class="chip">C#</span><span class="chip">SQL</span><span class="chip">HTML & CSS</span><span class="chip">React</span><span class="chip">Git & GitHub</span></div><p class="mini-label" style="margin-top:30px">AI, data & tools</p><div class="skills"><span class="chip">Machine Learning</span><span class="chip">Data Analysis</span><span class="chip">Unity</span><span class="chip">Linux</span><span class="chip">AWS</span><span class="chip">Blender</span></div></div></div></section>
+<section class="section" id="projects"><div class="container"><div class="section-head"><div><p class="kicker">03 / Selected work</p><h2>Things I've been building.</h2></div><p class="section-note">A selection of projects and experiments. More details, code and demos are coming soon.</p></div><div class="projects">
+<article class="project"><div class="project-art"><svg viewBox="0 0 100 100" aria-hidden="true"><path d="M10 50C25 50 26 22 42 22S60 78 76 78s13-28 24-28"/><circle cx="42" cy="22" r="6"/><circle cx="76" cy="78" r="6"/></svg></div><div class="project-body"><div class="project-top"><span class="category">Unity · C#</span><span class="status">Coming soon</span></div><h3>Soft Robotics Simulator</h3><p>A real-time simulation exploring magnetic steering and movement of soft medical robots in virtual environments.</p><div class="project-footer">Simulation · Medical technology</div></div></article>
+<article class="project"><div class="project-art"><svg viewBox="0 0 100 100" aria-hidden="true"><path d="M18 78V45M38 78V30M58 78V55M78 78V18M12 78h75"/><circle cx="38" cy="25" r="5"/></svg></div><div class="project-body"><div class="project-top"><span class="category">Python · Machine Learning</span><span class="status">Coming soon</span></div><h3>Fraud Detection with ML</h3><p>Comparing machine learning approaches to identify fraudulent credit card transactions.</p><div class="project-footer">Data science · Classification</div></div></article>
+<article class="project"><div class="project-art"><svg viewBox="0 0 100 100" aria-hidden="true"><rect x="15" y="18" width="70" height="63" rx="8"/><path d="M15 35h70M32 54l-9 8 9 8m36-16 9 8-9 8M55 47l-10 30"/></svg></div><div class="project-body"><div class="project-top"><span class="category">Unity · AI Tools</span><span class="status">Coming soon</span></div><h3>Unity AI Development Agent</h3><p>An AI-assisted development tool exploring natural-language workflows inside the Unity Editor.</p><div class="project-footer">Developer tools · AI</div></div></article>
+<article class="project"><div class="project-art"><svg viewBox="0 0 100 100" aria-hidden="true"><path d="M25 18h50v64H25zM34 31h32M34 44h32M34 57h20M34 70h25"/><circle cx="72" cy="70" r="14"/></svg></div><div class="project-body"><div class="project-top"><span class="category">Python · Analytics</span><span class="status">Coming soon</span></div><h3>NBA MVP Prediction</h3><p>Exploring basketball statistics and machine learning to predict MVP candidates.</p><div class="project-footer">Sports analytics · Machine learning</div></div></article>
+<article class="project"><div class="project-art"><svg viewBox="0 0 100 100" aria-hidden="true"><rect x="13" y="21" width="74" height="58" rx="6"/><path d="M13 38h74M29 54h18M29 66h42M66 50l7 7-7 7"/></svg></div><div class="project-body"><div class="project-top"><span class="category">Web development</span><span class="status">Coming soon</span></div><h3>Web Applications</h3><p>A collection of useful web apps, experiments and ideas. Individual projects will be added here.</p><div class="project-footer">Frontend · Problem-solving</div></div></article>
+<article class="project"><div class="project-art"><svg viewBox="0 0 100 100" aria-hidden="true"><circle cx="50" cy="50" r="29"/><path d="M50 20v60M20 50h60M29 29l42 42M71 29 29 71"/></svg></div><div class="project-body"><div class="project-top"><span class="category">What's next</span><span class="status">Coming soon</span></div><h3>More Projects on the Way</h3><p>New challenges, personal builds and technical experiments will appear here as they develop.</p><div class="project-footer">Learning · Building · Improving</div></div></article>
+</div></div></section>
+<section class="section" id="contact"><div class="container"><div class="contact"><div><p class="kicker">04 / Say hello</p><h2>Let's create something great.</h2><p>Whether it's a job opportunity, a project idea or a conversation about technology, I'd be happy to hear from you.</p></div><a class="btn primary" href="mailto:emmanuelolabanji@gmail.com">Send me an email ↗</a></div></div></section></main>
+<footer class="container footer"><div>© <span id="year">2026</span> Emmanuel Olabanji. Made with curiosity.</div><div class="footer-links"><a href="#top">Back to top ↑</a><a href="mailto:emmanuelolabanji@gmail.com">Email</a></div></footer>
+<script>document.getElementById('year').textContent=new Date().getFullYear();const menu=document.getElementById('menu'),links=document.getElementById('navlinks');menu.addEventListener('click',()=>{const expanded=menu.getAttribute('aria-expanded')==='true';menu.setAttribute('aria-expanded',String(!expanded));links.classList.toggle('open',!expanded)});links.querySelectorAll('a').forEach(a=>a.addEventListener('click',()=>{links.classList.remove('open');menu.setAttribute('aria-expanded','false')}));</script>
+</body></html>
